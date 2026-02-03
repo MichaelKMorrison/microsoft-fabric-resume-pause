@@ -46,8 +46,7 @@ $headers = @{
 
 $response = Invoke-RestMethod -Uri $url -Method Post -Headers $headers
 
-Write-Output "Operation $operation executed successfully for $ResourceID"
-```
+Write-Output "Operation $operation executed successfully for $ResourceID"```
 
 ### 3️⃣ Assign Permissions  
 - Grant the **Automation Account** the required role on the Fabric capacity resource:  
