@@ -53,6 +53,12 @@ Write-Output "Operation $operation executed successfully for $ResourceID"```
   ```yaml
   Role: Contributor  
   Scope: Microsoft.Fabric Capacity Resource  
+
+### 3️⃣ Assign Permissions  
+- Grant the **Automation Account** the required role on the Fabric capacity resource:  
+  ```yaml
+  Role: Contributor  
+  Scope: Microsoft.Fabric Capacity Resource  
   ```
 
 ### 4️⃣ Schedule the Runbook  
